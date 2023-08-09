@@ -17,6 +17,7 @@ int main(){
         }
     }   
     
+    //BFS
     queue<pair<int,int>>q;
     chk[0][0]=1;
     q.push({0,0});
