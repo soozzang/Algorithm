@@ -9,9 +9,9 @@ bool check(int sum){
     if (sum==2) return 1;
     int cnt;
     for(int i=1; i<=sum;i++){
-        if(sum%i == 0) cnt+=1;
+        if(sum%i == 0) return 0;
     }
-    if (cnt==2) return 1;
+    return 1;
 } //1이면 소수
 
 int go(int idx, int sum){
